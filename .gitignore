@@ -1,0 +1,15 @@
+# folders to ignore
+
+first/
+second/
+node_modules
+cache
+artifacts/
+
+# specific files to ignore
+
+.env
+boot.key
+cmd.txt
+pwd.txt
+pkeys.txt
