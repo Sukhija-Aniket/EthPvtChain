@@ -2,9 +2,12 @@
 
 first/
 second/
+third/
 node_modules
 cache
 artifacts/
+extra/
+.vscode/
 
 # specific files to ignore
 
@@ -13,3 +16,6 @@ boot.key
 cmd.txt
 pwd.txt
 pkeys.txt
+password.txt
+*.pem
+*.log

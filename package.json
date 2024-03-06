@@ -1,20 +1,23 @@
 {
   "name": "assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "This guide outlines the steps to set up a private Ethereum network, initialize nodes, and deploy smart contracts using Geth and Hardhat.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aniket",
   "license": "ISC",
   "devDependencies": {
     "hardhat": "^2.20.1"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "express": "^4.18.3",
     "fs": "^0.0.1-security",
+    "socket.io": "^4.7.4",
     "web3": "^4.5.0"
   }
 }

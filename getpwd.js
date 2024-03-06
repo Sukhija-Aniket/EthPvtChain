@@ -31,7 +31,7 @@ async function getValue(decryptedAccount) {
 }
 
 async function saveKeys() {
-    const nodes = ['first', 'second']
+    const nodes = ['first', 'second', 'third']
     const filePaths = await getFiles(nodes)
     const password = process.env.PASSWORD; 
     const privateKeyFile = path.join(dir, process.env.PRIVATE_KEY_FILE);
